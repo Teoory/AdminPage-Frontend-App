@@ -20,6 +20,7 @@
   --color-light: rgba(190, 190, 190, 0.25);
   --color-light-varient: rgb(95, 111, 131);
   --color-dark-light: rgba(255, 255, 255, 0.25);
+  --color-dark-varient2: #cccccc0a;
   --box-shadow: 0 0 0.2rem var(--color-light);
   aside .toggle .logo img{
       filter: invert(1);
@@ -51,6 +52,7 @@
   --color-light: rgb(100, 100, 100);
   --color-light-varient: rgba(125, 141, 161, 0.5);
   --color-dark-light: rgba(0, 0, 0, 0.685);
+  --color-dark-varient2: #0000001c;
   --box-shadow: 0 0 0.2rem var(--color-light);
   aside .toggle .logo img{
       filter: invert(0);
@@ -208,7 +210,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #cccccc0a;
+  background: var(--color-dark-varient2);
   border-radius: 15px;
   padding: 20px;
   margin: 20px 0;
@@ -226,7 +228,7 @@ main {
 .table-container {
   margin-bottom: 30px;
   overflow-x: auto;
-  background: #cccccc0a;
+  background: var(--color-dark-varient2);
   border-radius: 15px;
   padding: 20px;
   margin: 20px 0;
