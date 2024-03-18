@@ -73,7 +73,7 @@ const Sidebar = () => {
                     <span class="material-symbols-outlined">
                         contact_mail
                     </span>
-                    <h3>Contact</h3>
+                    <h3>Users</h3>
                 </Link>
                 <Link to={"/settings"} onClick={() => handleLinkClick(3)} className={activeLink === 3 ? 'active' : ''}>
                     <span class="material-symbols-outlined">
