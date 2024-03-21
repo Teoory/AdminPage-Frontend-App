@@ -32,12 +32,12 @@ const HomePage = () => {
     };
 
     const doughnutChartData = {
-        labels: ['Desktop', 'Mobile', 'Tablet'],
+        labels: ['Desktop', 'Mobile', 'Tablet' , 'Other'],
         datasets: [
             {
-                data: [300, 50, 100],
-                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-                hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+                data: [300, 50, 100, 200],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#36eb5d'],
+                hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#36eb5d'],
             },
         ],
     };

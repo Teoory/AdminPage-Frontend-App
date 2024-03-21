@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import photo from '../Components/ben2.jpg';
 
 const AboutPage = () => {
   return (
@@ -16,6 +17,7 @@ const AboutPage = () => {
                                                           <br/>play store: <a href="https://play.google.com/store/apps/dev?id=5030041674505470125">https://play.google.com/store/apps/dev?id=5030041674505470125</a>
               </p>
             <a style={{margin:'20px', color:'goldenrod', fontSize:'24px', backgroundColor:'#212121', borderRadius:'15px', padding:'10px'}} href="mailto:berkay.koksall54@gmail.com">Contact Me!</a>
+            <img src={photo} alt="ben" style={{width:'300px', height:'auto', borderRadius:'15px', margin:'50px'}}/>
         </div>
     </div>
   )
