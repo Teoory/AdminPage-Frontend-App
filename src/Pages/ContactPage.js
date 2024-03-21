@@ -34,13 +34,13 @@ const ContactPage = () => {
             <li className='user-card' key={index}>
               {user.picture.thumbnail && (
                 <img src={user.picture.thumbnail} alt={user.name.first} /> // if you want more than resulation change thumbnail to medium or large
-              )}
-              <h3 className='username'>{user.login.username}</h3>
-              <p className='fullname'>{user.name.first} {user.name.last}</p>
-              <p className='email'>{user.email}</p>
-              <p className='location'>{user.location.country}</p>
-            </li>
-          )
+                )}
+                <h3 className='username'>{user.login.username}</h3>
+                <p className='fullname'>{user.name.first} {user.name.last}</p>
+                <a href={`mailto:${user.email}`} className='email'>{user.email}</a>
+                <p className='location'>{user.location.country}</p>
+              </li>
+              )
         })}
       </ul>
     </div>
