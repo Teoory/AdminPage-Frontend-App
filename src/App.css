@@ -307,7 +307,7 @@ tr:hover {
 }
 
 .location {
-  color: var(--color-info-dark);
+  /* color: var(--color-info-dark); */
   color: #36A2EB;
 }
 
